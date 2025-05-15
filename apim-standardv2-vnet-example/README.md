@@ -9,5 +9,7 @@ https://learn.microsoft.com/ja-jp/azure/api-management/integrate-vnet-outbound
 https://learn.microsoft.com/ja-jp/azure/api-management/private-endpoint?tabs=classic  
 
 ```bash
+az group create -n $rgName -l $location 
 az deployment group create -g $rgName -f ./apim-standardv2-vnet-example/main.bicep
+az group delete -n $rgName --yes
 ```
