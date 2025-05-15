@@ -1,2 +1,2 @@
-# azure-bicep-exapmle
+# azure-bicep-example
 Bicepの練習用
